@@ -5,9 +5,9 @@
       <stringProp name="TestPlan.comments">This test plan was created by the BlazeMeter converter v.${project.version}. Please contact support@blazemeter.com for further support.</stringProp>
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" enabled="true">
         <collectionProp name="Arguments.arguments">
-          <elementProp name="accountName" elementType="Argument">
-            <stringProp name="Argument.name">accountName</stringProp>
-            <stringProp name="Argument.value">${__P(accountName,TESTPERTEST01)}</stringProp>
+          <elementProp name="ACCOUNT_NAME" elementType="Argument">
+            <stringProp name="Argument.name">ACCOUNT_NAME</stringProp>
+            <stringProp name="Argument.value">${__P(ACCOUNT_NAME,TESTPERTEST01)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="threadCount" elementType="Argument">
